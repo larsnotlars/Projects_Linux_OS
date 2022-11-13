@@ -1,0 +1,9 @@
+The library json-c is used in the code to decode the json object.
+
+To download the library on linux use:
+
+sudo apt install libjson-c-dev
+
+To compile run:
+
+gcc -Wall -o quiz quiz.c fetch.c parse.c play.c -ljson-c
